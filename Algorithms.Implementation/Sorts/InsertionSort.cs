@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithms.Implementation.Sorts
 {
-    public class InsertionSort
+	// in-place comparison sort
+    // O(n) - O(n2)
+	public class InsertionSort
     {
         public int[] Sort(int[] givenArray)
         {

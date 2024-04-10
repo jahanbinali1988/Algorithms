@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algorithms.Implementation.Sorts
 {
+	// in-place comparison sort
 	// an optimization of insertion sort
+	// O(n log2n) - O(n2)
 	public class ShellSort
 	{
 		public int Sort(int[] arr)
