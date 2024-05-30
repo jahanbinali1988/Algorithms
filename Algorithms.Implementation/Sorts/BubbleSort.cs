@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Algorithms.Implementation.Sorts
 {
-    /// <summary>
-    /// https://code-maze.com/csharp-bubble-sort/
-    /// </summary>
-    public class BubbleSort
+	/// <summary>
+	/// https://code-maze.com/csharp-bubble-sort/
+	/// This algorithm is fastest on an extremely small or nearly sorted dataset.
+	/// N-1
+	/// </summary>
+	public class BubbleSort
     {
         public int[] Sort(int[] givenArray)
         {

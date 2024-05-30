@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Algorithms.Implementation.Sorts
 {
+	/// <summary>
+	/// It's good for large datasets
+	/// It preferred for tables
+	/// O(n^2)
+	/// </summary>
 	public class QuickSort
 	{
 		public void Sort(int[] arr, int low, int high)

@@ -1,9 +1,11 @@
 ﻿namespace Algorithms.Implementation.Sorts
 {
-    /// <summary>
-    /// the aim of this algorithm is finding the minimum value of unsorted list and put in the right place of the listss
-    /// </summary>
-    public class SelectionSort
+	/// <summary>
+	/// the aim of this algorithm is finding the minimum value of unsorted list and put in the right place of the lists
+	/// Just for the small lists
+	/// O(N^2)
+	/// </summary>
+	public class SelectionSort
     {
         /// <summary>	
         /// We devide a list of number into two parts, sorted and unsorted. 
